@@ -1,10 +1,10 @@
 import Steps.HomePageSteps;
 import config.driver.Driver;
-import listeners.AttachScreenshotOnFailListener;
-import org.testng.annotations.*;
-import model.User;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
-public class Tests3 {
+public class Tests4 {
 
     @BeforeMethod
     public void beforeMethod() {
